@@ -13,7 +13,7 @@ st.subheader("Engagement Analysis")
 st.write("One research question I have is whether using #tradwife hashtag leads to more engagement of the videos, where engagement is measured by save, like and repost.")
 
 # Load the dataset
-df = pd.read_csv("/Users/sandyliu/Tw_Streamlit/streamlit_logged_chart_data.csv")
+df = pd.read_csv("streamlit_logged_chart_data.csv")
 
 # Display a preview of the data
 st.write("### Data Preview")
