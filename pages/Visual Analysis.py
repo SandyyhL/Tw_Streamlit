@@ -178,7 +178,7 @@ def detect_labels(path):
 
 st.code(code_snippet, language="python")
 
-df = pd.read_csv("/Users/sandyliu/Thesis/Streamlit/label_counts.csv")
+df = pd.read_csv("label_counts.csv")
 
 # Display data
 st.title("Ranked Bar Chart of Popular Hashtags from Frame Labels")
